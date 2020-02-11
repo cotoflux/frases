@@ -1,0 +1,23 @@
+{
+    "name": "cotofflux/inspira",
+    "type": "library",
+    "description": "Devuelve frases inspiradoras en castellano",
+    "license": "MIT",
+    "authors": [{
+        "name": "Nuria Puig",
+        "email": "cotoflux@hotmail.com"
+    }],
+    
+    "require":{
+        "laravel/framework": "^6.14"
+    },
+
+    "autoload": {
+        "files": [
+            
+        ],
+        "psr-4": {
+            "cotoflux\\inspira\\":"src/"
+        }
+    }
+}
